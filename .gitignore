@@ -126,3 +126,5 @@ dmypy.json
 
 # macosx hidden files
 .DS_Store
+
+.idea
