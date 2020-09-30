@@ -30,7 +30,7 @@ while True:
         total = calculate(
             option,
             runningTotal if runningTotal else float(input('Enter number 1: ')),
-            float(input('Enter number 2: '))
+            float   (input('Enter number 2: '))
         )
         print(f'Total: {total}')
 

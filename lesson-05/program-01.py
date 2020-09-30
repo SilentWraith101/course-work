@@ -1,5 +1,3 @@
-# Continued total
-continuedTotal = 0
 while True:
 
     # Outputing the option you can choose
