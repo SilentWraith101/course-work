@@ -1,8 +1,10 @@
-number_amount = int(input('Enter the amount of values you want to enter: '))
+number_amount = int(input(
+    'Enter the amount of values you want to enter: '
+))
 
 
 def write_file(value):
-    with open('class_exercise.txt','a') as fout:
+    with open('class_exercise.txt', 'a') as fout:
         fout.write(f'{value},')
 
 
