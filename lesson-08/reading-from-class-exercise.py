@@ -9,6 +9,7 @@ list = data.split(',')
 print(list)
 list.pop(-1)
 total = 0
+
 for item in list:
     total += int(item)
 print(f'Total is {total}')
